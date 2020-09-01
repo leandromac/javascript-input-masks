@@ -1,4 +1,4 @@
-# javascript-input-masks
+# Javascript Input Masks
 - CPF
 - CNPJ
 - TELEFONE
