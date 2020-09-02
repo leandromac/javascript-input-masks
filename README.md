@@ -5,3 +5,5 @@
 - CEP
 - PIS
 - DATA
+- USUÁRIO
+- SENHA
