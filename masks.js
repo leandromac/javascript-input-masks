@@ -45,6 +45,15 @@ const masks = {
     .replace(/(\d{2})(\d)/,'$1/$2')
     .replace(/(\d{4})\d+?$/, '$1')
   },
+  user(value) {
+    return value
+    .replace(/\s/g, '')
+  },
+  password(value) {
+    return value
+    .replace(/\s/g, '')
+    .replace(/\S/g, '*')
+  },
 };
 
 document.querySelectorAll('input').forEach(($input) => {
