@@ -62,7 +62,12 @@ const masks = {
     .replace(/\s/g, '')
     .replace(/\S/g, '*')
   },
-  
+
+  url(value) {
+    return value
+    .replace(/\s/g, '')
+  },
+
 };
 
 document.querySelectorAll('input').forEach(($input) => {
